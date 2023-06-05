@@ -2,9 +2,18 @@
 	width:100%;
 }
 
+.exemplo {
+	width: 1200px;
+	font-size: x-large
+}
+.teste{
+    background-color: #e1e3e6db;
+	padding: 30px;	
+}
 .principal{
-	background: #CCCCCC;
+	background: #4f4f4d;
 	padding: 30px;
+	
 }
 
 .titulo-principal {
@@ -45,4 +54,18 @@ ul {
 
 .imagembeneficios {
 	width: 50%;
+}
+
+.div-separada {
+	display: flex;
+	flex: 5;
+}
+
+.div-direita {
+	text-align: center;
+	margin-right: 15%;
+}
+
+.lista{
+	font-size: xx-large;
 }
