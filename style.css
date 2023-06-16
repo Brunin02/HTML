@@ -1,100 +1,14 @@
-#banner {
-	width:100%;
-}
-
-.exemplo {
-	width: 1200px;
-	font-size: x-large
-}
-.teste{
-    background-color: #e1e3e6db;
-	padding: 30px;	
-}
 .principal{
-	background: #4f4f4d;
+	background: #CCCCCC;
 	padding: 30px;
-	
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.exemplo{
+    padding-left: 1100px;
 }
-
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
-	text-align: center;
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
-}
-
-.itens {
-	font-style: italic
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
-}
-
-.div-separada {
-	display: flex;
-	flex: 5;
-}
-
-.div-direita {
-	text-align: center;
-	margin-right: 15%;
-}
-
-.lista{
-	font-size: xx-large;
-}
-
-form {
-    /* Apenas para centralizar o form na página */
-    margin: 0 auto;
-    width: 400px;
-    /* Para ver as bordas do formulário */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-
-form div + div {
-    margin-top: 1em;
-}
-
-.button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
-}
-button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-    margin-left: .5em;
-}
-
-	@media screen and (max-width: 480px) {
-		 body {
-			background:#FF0000
-		 }
+@media screen and (max-width: 480px) {
+	p { 
+                background-color: rgb(red);
+                   font-size: 25px;
 	}
+}
